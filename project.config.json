@@ -3,17 +3,38 @@
 	"packOptions": {
 		"ignore": []
 	},
-	"compileType": "miniprogram",
-	"libVersion": "2.4.0",
-	"projectname": "wx-app",
-	"scripts": {
-		"beforeCompile": "npm run compile",
-		"beforePreview": "npm run compile",
-		"beforeUpload": "npm run compile"
-	},
 	"setting": {
-		"newFeature": true
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
 	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.1",
 	"appid": "wx9c1beafbf70af1f0",
-	"condition": {}
+	"projectname": "wx-app",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
 }
