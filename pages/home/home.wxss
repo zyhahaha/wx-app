@@ -48,6 +48,7 @@
   margin-bottom: 30rpx;
 }
 .home .class_card_wrap .class_img{
+  overflow: hidden;
   flex: 1;
   height: 120rpx;
   font-size: 23rpx;
@@ -56,6 +57,13 @@
   line-height: 120rpx;
   border-radius: 10rpx;
   background-color: #b0b0b0;
+  /* background: url("../../images/libraries/book_center.png") */
+}
+.home .class_card_wrap .text_wrap{
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-color: #000;
 }
 .home .class_card_wrap .class_gap{
   margin: 0rpx 30rpx;

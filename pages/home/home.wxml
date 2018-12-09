@@ -22,26 +22,28 @@
     <text>热门分类</text>
     <view class="class_card_wrap">
       <view class="class_card_line">
-        <view class="class_img">艺术生活</view>
-        <view class="class_img class_gap">社会心理</view>
-        <view class="class_img">养育教育</view>
+        <view class="class_img">
+          <view class="text_wrap">艺术生活</view>
+        </view>
+        <view class="class_img class_gap">
+          <view class="text_wrap">社会心理</view>
+        </view>
+        <view class="class_img">
+          <view class="text_wrap">养育教育</view>
+        </view>
       </view>
       <!-- line 2 -->
       <view class="class_card_line">
-        <view class="class_img">艺术生活</view>
-        <view class="class_img class_gap">社会心理</view>
-        <view class="class_img">养育教育</view>
+        <view class="class_img">
+          <view class="text_wrap">艺术生活</view>
+        </view>
+        <view class="class_img class_gap">
+          <view class="text_wrap">社会心理</view>
+        </view>
+        <view class="class_img">
+          <view class="text_wrap">养育教育</view>
+        </view>
       </view>
     </view>
   </view>
-  <!-- <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view> -->
 </view>
