@@ -1,0 +1,7 @@
+.home{
+  padding: 40rpx 30rpx 0rpx;
+  font-size: 45rpx;
+}
+.header{
+  margin-bottom: 40rpx;
+}
