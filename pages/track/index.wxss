@@ -1,7 +1,55 @@
-.home{
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+.track{
   padding: 40rpx 30rpx 0rpx;
+}
+.track .header{
+  margin-bottom: 40rpx;
   font-size: 45rpx;
 }
-.header{
+/* card */
+.track .card{
   margin-bottom: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 2rpx solid #e6e6e6;
+}
+.track .card_img{
+  width: 100%;
+  height: 400rpx;
+  border-radius: 10rpx;
+  background-color: #b0b0b0;
+}
+/* read_record */
+.track .read_record .record_title{
+  overflow: hidden;
+  margin-bottom: 40rpx;
+}
+
+.track .read_record .record_item{
+  overflow: hidden;
+  margin-bottom: 60rpx;
+}
+.track .record_item .item_img{
+  width: 180rpx;
+  height: 126rpx;
+  margin-right: 30rpx;
+  border-radius: 10rpx;
+  background-color: #b0b0b0;
+}
+.track .record_item .text_wrap{
+  font-size: 17rpx;
+}
+.track .text_wrap .book_title{
+  font-size: 23rpx;
+}
+.track .text_wrap .book_auther{
+  padding: 20rpx 0px;
+}
+.track .text_wrap .read_progress{
+  color: #ccc;
 }

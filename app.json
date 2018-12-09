@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/home/home",
     "pages/libraries/index",
+    "pages/home/home",
+    
     "pages/track/index",
     "pages/my/index",
     "pages/index/index",
@@ -12,15 +13,23 @@
     "selectedColor": "#11cd6e",
     "borderStyle":"white",
     "list": [{
+      "selectedIconPath": "images/tab-ico/book-icon_pre.png",
+      "iconPath": "images/tab-ico/book-icon_nor.png",
       "pagePath": "pages/home/home",
       "text": "首页"
     },{
+      "selectedIconPath": "images/tab-ico/libraries-icon_pre.png",
+      "iconPath": "images/tab-ico/library-icon_nor.png",
       "pagePath": "pages/libraries/index",
       "text": "书馆"
     },{
+      "selectedIconPath": "images/tab-ico/foot-icon_pre.png",
+      "iconPath": "images/tab-ico/foot-icon_nor.png",
       "pagePath": "pages/track/index",
       "text": "足迹"
     },{
+      "selectedIconPath": "images/tab-ico/me-icon_pre.png",
+      "iconPath": "images/tab-ico/me-icon_nor.png",
       "pagePath": "pages/my/index",
       "text": "我的"
     }]
