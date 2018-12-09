@@ -1,7 +1,35 @@
-.home{
-  padding: 40rpx 30rpx 0rpx;
-  font-size: 45rpx;
+.fl{
+  float: left;
 }
-.header{
+.fr{
+  float: right;
+}
+
+.my{
+  padding: 40rpx 30rpx 0rpx;
+}
+.my .header{
+  overflow: hidden;
   margin-bottom: 40rpx;
+  font-size: 45rpx;
+  line-height: 120rpx;
+  /* background-color: #f5f5f5; */
+}
+.my .header .avatar_img{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 120rpx;
+  background-color: #b0b0b0;
+}
+/* my_list */
+.my .my_list{
+
+}
+.my .my_list .my_item{
+  padding: 30rpx 0rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.my .my_item image{
+  /* 暂时 */
+  margin-top:5px;
 }

@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="home">
   <view class="header">
-    <text>书馆</text>
+    <text>轻读</text>
     <image class="fr" style="width: 50rpx; height: 50rpx;" src="{{search}}" alt=""></image>
   </view>
   <!-- card -->

@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    arrowsRight: '../../images/arrows_right.png',
     motto: 'Hello home',
     userInfo: {},
     hasUserInfo: false,
