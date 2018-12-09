@@ -1,30 +1,65 @@
 <!--index.wxml-->
-<view class="home">
+<view class="libraries">
   <view class="header">
-    <text>轻读</text>
-    <icon/>
+    <text>书馆</text>
+    <image class="fr" style="width: 50rpx; height: 50rpx;" src="{{search}}" alt=""></image>
   </view>
   <!-- card -->
-  <view class="card"></view>
-  <!-- taday -->
-  <view class="taday">
+  <view class="card_img">
 
   </view>
-  <!-- hot class -->
-  <view class="hot_class">
-    <view class="class_card">
-      <!-- <img src="" alt=""> -->
-      <view class="text_wrap">艺术生活</view>
+  <!-- enter -->
+  <view class="enter">
+    <view class="enter_item_wrap">
+      <view class="enter_item fl">
+        <image style="width: 88rpx; height: 88rpx;" src="{{all_class}}" alt=""></image>
+        <text>全部分类</text>
+      </view>
+      <view class="enter_item fl">
+        <image style="width: 88rpx; height: 88rpx;" src="{{book_center}}" alt=""></image>
+        <text>书单中心</text>
+      </view>
+      <view class="enter_item fl">
+        <image style="width: 88rpx; height: 88rpx;" src="{{new_up}}" alt=""></image>
+        <text>最新上架</text>
+      </view>
+      <view class="enter_item fl last">
+        <image style="width: 88rpx; height: 88rpx;" src="{{good_book}}" alt=""></image>
+        <text>精选读物</text>
+      </view>
     </view>
   </view>
-  <!-- <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <!-- good topic -->
+  <view class="good_topic">
+    <view class="big_title">精选话题</view>
+    <view class="topic_list">
+      <!-- item 1 -->
+      <view class="topic_item">
+        <view class="text_wrap fl">
+          <view class="topic_title">身体语言能透露出许多真实的信息，破译它便能看穿对方！</view>
+          <view class="topic_tag">#人际关系#</view>
+          <view class="recommend">推荐《test》等3本书籍</view>
+        </view>
+        <view class="topic_img fr"></view>
+      </view>
+      <!-- item 2 -->
+      <view class="topic_item">
+        <view class="text_wrap fl">
+          <view class="topic_title">身体语言能透露出许多真实的信息，破译它便能看穿对方！</view>
+          <view class="topic_tag">#人际关系#</view>
+          <view class="recommend">推荐《test》等3本书籍</view>
+        </view>
+        <view class="topic_img fr"></view>
+      </view>
+      <!-- item 3 -->
+      <view class="topic_item">
+        <view class="text_wrap fl">
+          <view class="topic_title">身体语言能透露出许多真实的信息，破译它便能看穿对方！</view>
+          <view class="topic_tag">#人际关系#</view>
+          <view class="recommend">推荐《test》等3本书籍</view>
+        </view>
+        <view class="topic_img fr"></view>
+      </view>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view> -->
 </view>

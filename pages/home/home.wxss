@@ -1,7 +1,29 @@
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
 .home{
   padding: 40rpx 30rpx 0rpx;
   font-size: 45rpx;
 }
-.header{
+.home .header{
   margin-bottom: 40rpx;
+}
+/* card_img */
+.home .card_img_wrap{
+  width: 100%;
+  overflow-x: scroll;
+}
+.home .card_slide{
+  width: 99999rpx;
+}
+.home .card_img{
+  width: 500rpx;
+  height: 600rpx;
+  margin-right: 40rpx;
+  border-radius: 10rpx;
+  background-color: #b0b0b0;
 }

@@ -1,8 +1,7 @@
 {
   "pages":[
-    "pages/libraries/index",
     "pages/home/home",
-    
+    "pages/libraries/index",
     "pages/track/index",
     "pages/my/index",
     "pages/index/index",

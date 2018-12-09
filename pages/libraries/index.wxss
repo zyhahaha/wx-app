@@ -1,7 +1,72 @@
-.home{
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+.libraries{
   padding: 40rpx 30rpx 0rpx;
   font-size: 45rpx;
 }
-.header{
+.libraries .header{
   margin-bottom: 40rpx;
+}
+/* card_img */
+.libraries .card_img{
+  width: 100%;
+  height: 280rpx;
+  border-radius: 10rpx;
+  background-color: #b0b0b0;
+}
+/* all_class */
+.libraries .enter{
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding: 50rpx 0rpx 40rpx;
+  border-bottom: 2rpx solid #e6e6e6;
+  font-size: 24rpx;
+  text-align: center;
+}
+.libraries .enter .enter_item_wrap{
+  display: inline-block;
+  overflow: hidden;
+}
+.libraries .enter image{
+  display: block;
+  margin-bottom: 30rpx;
+}
+.libraries .enter .enter_item{
+  margin-right: 60rpx;
+}
+.libraries .enter .last{
+  margin-right: 0rpx;
+}
+/* good_topic */
+.libraries .good_topic .big_title{
+  margin-bottom: 40rpx;
+}
+.libraries .topic_item{
+  overflow: hidden;
+  margin-bottom: 40rpx;
+}
+.libraries .topic_item .text_wrap{
+  width: 300rpx;
+  font-size: 17rpx;
+}
+.libraries .text_wrap .topic_title{
+  font-size: 23rpx;
+}
+.libraries .text_wrap .topic_tag{
+  margin: 33rpx 0rpx 20rpx;
+  color: #b07223;
+}
+.libraries .text_wrap .recommend{
+  color: #ccc;
+}
+.libraries .topic_item .topic_img{
+  width: 200rpx;
+  height: 140rpx;
+  border-radius: 10rpx;
+  background-color: #b0b0b0;
 }

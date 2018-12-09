@@ -1,11 +1,18 @@
 <!--index.wxml-->
 <view class="home">
   <view class="header">
-    <text>轻读</text>
-    <icon/>
+    <text>书馆</text>
+    <image class="fr" style="width: 50rpx; height: 50rpx;" src="{{search}}" alt=""></image>
   </view>
   <!-- card -->
-  <view class="card"></view>
+  <view class="card_img_wrap">
+    <view class="card_slide">
+      <view class="card_img fl"></view>
+      <view class="card_img fl"></view>
+      <view class="card_img fl"></view>
+    </view>
+  </view>
+  
   <!-- taday -->
   <view class="taday">
 

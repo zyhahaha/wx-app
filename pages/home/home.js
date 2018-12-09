@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    search: '../../images/search.png',
     motto: 'Hello home',
     userInfo: {},
     hasUserInfo: false,
