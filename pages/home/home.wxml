@@ -12,16 +12,26 @@
       <view class="card_img fl"></view>
     </view>
   </view>
-  
-  <!-- taday -->
-  <view class="taday">
-
+  <!-- taday_excerpt -->
+  <view class="taday_excerpt">
+    <text>今日书摘</text>
+    <view class="excerpt_img"></view>
   </view>
   <!-- hot class -->
   <view class="hot_class">
-    <view class="class_card">
-      <!-- <img src="" alt=""> -->
-      <view class="text_wrap">艺术生活</view>
+    <text>热门分类</text>
+    <view class="class_card_wrap">
+      <view class="class_card_line">
+        <view class="class_img">艺术生活</view>
+        <view class="class_img class_gap">社会心理</view>
+        <view class="class_img">养育教育</view>
+      </view>
+      <!-- line 2 -->
+      <view class="class_card_line">
+        <view class="class_img">艺术生活</view>
+        <view class="class_img class_gap">社会心理</view>
+        <view class="class_img">养育教育</view>
+      </view>
     </view>
   </view>
   <!-- <view class="userinfo">

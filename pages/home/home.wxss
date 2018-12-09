@@ -27,3 +27,36 @@
   border-radius: 10rpx;
   background-color: #b0b0b0;
 }
+/* taday_excerpt */
+.home .taday_excerpt{
+  padding-top: 40rpx;
+  margin-bottom: 40rpx;
+}
+.home .taday_excerpt .excerpt_img{
+  width: 100%;
+  height: 200rpx;
+  margin-top: 40rpx;
+  border-radius: 10rpx;
+  background-color: #b0b0b0;
+}
+/* class_img */
+.home .class_card_wrap{
+  margin-top: 40rpx;
+}
+.home .class_card_line{
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.home .class_card_wrap .class_img{
+  flex: 1;
+  height: 120rpx;
+  font-size: 23rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 120rpx;
+  border-radius: 10rpx;
+  background-color: #b0b0b0;
+}
+.home .class_card_wrap .class_gap{
+  margin: 0rpx 30rpx;
+}
