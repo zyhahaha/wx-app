@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/home/home",
     "pages/libraries/index",
     "pages/track/index",
@@ -10,33 +10,39 @@
   "tabBar": {
     "color": "#a9b7b7",
     "selectedColor": "#11cd6e",
-    "borderStyle":"white",
-    "list": [{
-      "selectedIconPath": "images/tab-ico/book-icon_pre.png",
-      "iconPath": "images/tab-ico/book-icon_nor.png",
-      "pagePath": "pages/home/home",
-      "text": "首页"
-    },{
-      "selectedIconPath": "images/tab-ico/libraries-icon_pre.png",
-      "iconPath": "images/tab-ico/library-icon_nor.png",
-      "pagePath": "pages/libraries/index",
-      "text": "书馆"
-    },{
-      "selectedIconPath": "images/tab-ico/foot-icon_pre.png",
-      "iconPath": "images/tab-ico/foot-icon_nor.png",
-      "pagePath": "pages/track/index",
-      "text": "足迹"
-    },{
-      "selectedIconPath": "images/tab-ico/me-icon_pre.png",
-      "iconPath": "images/tab-ico/me-icon_nor.png",
-      "pagePath": "pages/my/index",
-      "text": "我的"
-    }]
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/tab-ico/book-icon_pre.png",
+        "iconPath": "images/tab-ico/book-icon_nor.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/tab-ico/libraries-icon_pre.png",
+        "iconPath": "images/tab-ico/library-icon_nor.png",
+        "pagePath": "pages/libraries/index",
+        "text": "书馆"
+      },
+      {
+        "selectedIconPath": "images/tab-ico/foot-icon_pre.png",
+        "iconPath": "images/tab-ico/foot-icon_nor.png",
+        "pagePath": "pages/track/index",
+        "text": "足迹"
+      },
+      {
+        "selectedIconPath": "images/tab-ico/me-icon_pre.png",
+        "iconPath": "images/tab-ico/me-icon_nor.png",
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
   },
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
 }
