@@ -5,10 +5,30 @@ const app = getApp()
 Page({
   data: {
     search: '../../images/search.png',
+    brannerImgOne: '../../images/home/1.jpg',
+    brannerImgTwo: '../../images/home/2.jpg',
+    brannerImgThree: '../../images/home/3.jpg',
     motto: 'Hello home',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
+  },
+  bindTest(){
+    this.setData({
+      motto: '网络'
+    });
+    // wx.startRecord({
+    //   success (res) {
+    //     const tempFilePath = res.tempFilePath
+    //     console.log(tempFilePath)
+    //     this.setData({
+    //       motto: tempFilePath
+    //     });
+    //   }
+    // })
+    // setTimeout(function () {
+    //   wx.stopRecord() // 结束录音
+    // }, 10000)
   },
   //事件处理函数
   bindViewTap: function() {

@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="libraries">
   <view class="header">
-    <text>书馆</text>
+    <text>样式</text>
     <image class="fr" style="width: 50rpx; height: 50rpx;" src="{{search}}" alt=""></image>
   </view>
   <!-- card -->
@@ -13,50 +13,32 @@
     <view class="enter_item_wrap">
       <view class="enter_item fl">
         <image style="width: 88rpx; height: 88rpx;" src="{{all_class}}" alt=""></image>
-        <text>全部分类</text>
+        <text>icon</text>
       </view>
       <view class="enter_item fl">
         <image style="width: 88rpx; height: 88rpx;" src="{{book_center}}" alt=""></image>
-        <text>书单中心</text>
+        <text>icon</text>
       </view>
       <view class="enter_item fl">
         <image style="width: 88rpx; height: 88rpx;" src="{{new_up}}" alt=""></image>
-        <text>最新上架</text>
+        <text>icon</text>
       </view>
       <view class="enter_item fl last">
         <image style="width: 88rpx; height: 88rpx;" src="{{good_book}}" alt=""></image>
-        <text>精选读物</text>
+        <text>icon</text>
       </view>
     </view>
   </view>
   <!-- good topic -->
   <view class="good_topic">
-    <view class="big_title">精选话题</view>
+    <view class="big_title">列表渲染</view>
     <view class="topic_list">
-      <!-- item 1 -->
-      <view class="topic_item">
+      <!-- item -->
+      <view class="topic_item" wx:for="{{topicList}}">
         <view class="text_wrap fl">
-          <view class="topic_title">身体语言能透露出许多真实的信息，破译它便能看穿对方！</view>
-          <view class="topic_tag">#人际关系#</view>
-          <view class="recommend">推荐《test》等3本书籍</view>
-        </view>
-        <view class="topic_img fr"></view>
-      </view>
-      <!-- item 2 -->
-      <view class="topic_item">
-        <view class="text_wrap fl">
-          <view class="topic_title">身体语言能透露出许多真实的信息，破译它便能看穿对方！</view>
-          <view class="topic_tag">#人际关系#</view>
-          <view class="recommend">推荐《test》等3本书籍</view>
-        </view>
-        <view class="topic_img fr"></view>
-      </view>
-      <!-- item 3 -->
-      <view class="topic_item">
-        <view class="text_wrap fl">
-          <view class="topic_title">身体语言能透露出许多真实的信息，破译它便能看穿对方！</view>
-          <view class="topic_tag">#人际关系#</view>
-          <view class="recommend">推荐《test》等3本书籍</view>
+          <view class="topic_title">{{item.title}}</view>
+          <view class="topic_tag">{{item.tag}}</view>
+          <view class="recommend">{{item.recommend}}</view>
         </view>
         <view class="topic_img fr"></view>
       </view>

@@ -10,43 +10,16 @@
   <!-- read record -->
   <view class="read_record">
     <view class="record_title">
-      <text class="fl">阅读记录</text>
+      <text class="fl">记录</text>
       <text class="fr">排序</text>
     </view>
     <view class="record_list">
-      <view class="record_item">
+      <view class="record_item" wx:for="{{recordList}}">
         <view class="item_img fl"></view>
         <view class="text_wrap fl">
-          <view class="book_title">营养滋味</view>
-          <view class="book_auther">徐文兵 著</view>
-          <view class="read_progress">已读47%</view>
-        </view>
-      </view>
-      <!-- item 2 -->
-      <view class="record_item">
-        <view class="item_img fl"></view>
-        <view class="text_wrap fl">
-          <view class="book_title">杀死一只知更鸟</view>
-          <view class="book_auther">[美]哈珀．李 著</view>
-          <view class="read_progress">已读100%</view>
-        </view>
-      </view>
-      <!-- item 3 -->
-      <view class="record_item">
-        <view class="item_img fl"></view>
-        <view class="text_wrap fl">
-          <view class="book_title">发现你的行动力</view>
-          <view class="book_auther">test 著</view>
-          <view class="read_progress">已读77%</view>
-        </view>
-      </view>
-      <!-- item 4 -->
-      <view class="record_item">
-        <view class="item_img fl"></view>
-        <view class="text_wrap fl">
-          <view class="book_title">戒了吧，拖延症</view>
-          <view class="book_auther">略略 著</view>
-          <view class="read_progress">已读22%</view>
+          <view class="book_title">{{item.title}}</view>
+          <view class="book_auther">{{item.auther}}</view>
+          <view class="read_progress">已读{{item.progress}}%</view>
         </view>
       </view>
     </view>

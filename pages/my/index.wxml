@@ -17,7 +17,7 @@
       <image class="fr" style="width: 38rpx; height: 38rpx;" src="{{arrowsRight}}" alt=""></image>
     </view>
     <view class="my_item">
-      <text>书单推荐</text>
+      <text>打开APP</text>
       <image class="fr" style="width: 38rpx; height: 38rpx;" src="{{arrowsRight}}" alt=""></image>
     </view>
   </view>

@@ -8,7 +8,38 @@ Page({
     all_class: '../../images/libraries/all_class.png',
     book_center: '../../images/libraries/book_center.png',
     new_up: '../../images/libraries/new_up.png',
-    good_book: '../../images/libraries/good_book.png'
+    good_book: '../../images/libraries/good_book.png',
+    topicList: [
+      {
+        title: '列表渲染 item title 标题 0001',
+        tag: '#标签#',
+        recommend: '推荐《0001》'
+      }, {
+        title: '列表渲染 item title 标题 0002',
+        tag: '#标签#',
+        recommend: '推荐《0002》'
+      }, {
+        title: '列表渲染 item title 标题 0003',
+        tag: '#标签#',
+        recommend: '推荐《0003》'
+      }, {
+        title: '列表渲染 item title 标题 0004',
+        tag: '#标签#',
+        recommend: '推荐《0004》'
+      }, {
+        title: '列表渲染 item title 标题 0005',
+        tag: '#标签#',
+        recommend: '推荐《0005》'
+      }, {
+        title: '列表渲染 item title 标题 0006',
+        tag: '#标签#',
+        recommend: '推荐《0006》'
+      }, {
+        title: '列表渲染 item title 标题 0007',
+        tag: '#标签#',
+        recommend: '推荐《0007》'
+      }
+    ]
   },
   //事件处理函数
   bindViewTap: function() {

@@ -7,7 +7,38 @@ Page({
     motto: 'Hello home',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    recordList: [
+      {
+        title: '营养滋味',
+        auther: '略略',
+        progress: '42'
+      }, {
+        title: '杀死一只知更鸟',
+        auther: '略略',
+        progress: '62'
+      }, {
+        title: '发现你的行动力',
+        auther: '略略',
+        progress: '11'
+      }, {
+        title: '拖延症',
+        auther: '略略',
+        progress: '1'
+      }, {
+        title: '营养滋味',
+        auther: '略略',
+        progress: '12'
+      }, {
+        title: '营养滋味',
+        auther: '略略',
+        progress: '12'
+      }, {
+        title: '营养滋味',
+        auther: '略略',
+        progress: '12'
+      }
+    ]
   },
   //事件处理函数
   bindViewTap: function() {
