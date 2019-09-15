@@ -8,6 +8,7 @@
 .home{
   padding: 40rpx 30rpx 0rpx;
   font-size: 45rpx;
+  -webkit-overflow-scrolling: touch;
 }
 .home .header{
   margin-bottom: 40rpx;
@@ -16,6 +17,7 @@
 .home .card_img_wrap{
   width: 100%;
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 .home .card_slide{
   width: 99999rpx;
