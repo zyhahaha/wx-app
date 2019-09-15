@@ -9,10 +9,6 @@
   <!-- list -->
   <view class="my_list">
     <view class="my_item">
-      <text>积分商城</text>
-      <image class="fr" style="width: 38rpx; height: 38rpx;" src="{{arrowsRight}}" alt=""></image>
-    </view>
-    <view class="my_item">
       <text>下载记录</text>
       <image class="fr" style="width: 38rpx; height: 38rpx;" src="{{arrowsRight}}" alt=""></image>
     </view>
