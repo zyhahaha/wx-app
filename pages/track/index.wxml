@@ -19,7 +19,7 @@
         <view class="text_wrap fl">
           <view class="book_title">{{item.title}}</view>
           <view class="book_auther">{{item.auther}}</view>
-          <view class="read_progress">已读{{item.progress}}%</view>
+          <view class="read_progress">已读 {{item.progress}} %</view>
         </view>
       </view>
     </view>
